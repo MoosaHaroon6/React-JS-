@@ -1,0 +1,23 @@
+const adding = () => {
+    if (!isNaN(numval)) {
+        setInitCount(initCount + 1);
+        console.log(numval + 1);
+    }
+};
+
+
+const subtracting = () => {
+    if (!isNaN(numval)) {
+        setInitCount(initCount - 1);
+        console.log(numval + 1);
+    }
+}
+
+
+const userNameHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setUserName(e.target.value);
+};
+
+const userNameHandler = (e: any) => {
+    setUserName(e.target.value);
+}
